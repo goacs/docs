@@ -1,0 +1,19 @@
+{
+  "name": "goacs-docs",
+  "version": "0.0.1",
+  "description": "GoACS Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Jakub Augustynowicz",
+    "email": "contact@goacs.net"
+  },
+  "repository": "https://github.com/goacs/docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
