@@ -1,6 +1,4 @@
 const { description } = require('../../package')
-import { SearchPlugin } from "vitepress-plugin-search";
-
 
 module.exports = {
   base: '/',
@@ -9,7 +7,6 @@ module.exports = {
   host: 'localhost',
   port: 8088,
   lastUpdated: true,
-  plugins: [SearchPlugin()],
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
