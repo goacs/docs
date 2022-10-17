@@ -9,11 +9,14 @@
   },
   "repository": "https://github.com/goacs/docs",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src"
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "markdown-it": "^13.0.1",
+    "vitepress": "^1.0.0-alpha.21",
+    "vue": "^3.2.41"
   }
 }
